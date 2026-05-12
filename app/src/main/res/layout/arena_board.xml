@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="#F7F4EF">
+
+    <TextView
+        android:id="@+id/orbDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="96sp"
+        android:textColor="#2C2820"
+        android:layout_marginBottom="40dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+
+        <Button
+            android:id="@+id/boostBtn"
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+            android:text="⬆ Boost"
+            android:textColor="#5C5448"
+            android:backgroundTint="#F2EDE4"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/drainBtn"
+            android:layout_width="120dp"
+            android:layout_height="52dp"
+            android:text="⬇ Drain"
+            android:textColor="#5C5448"
+            android:backgroundTint="#F2EDE4"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/voidBtn"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:text="◼ Void"
+        android:textColor="#9C9488"
+        android:backgroundTint="#EDE8E0"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/shadowBtn"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:text="⚡ Shadow Boost"
+        android:textColor="#185FA5"
+        android:backgroundTint="#E6F1FB"/>
+
+</LinearLayout>
